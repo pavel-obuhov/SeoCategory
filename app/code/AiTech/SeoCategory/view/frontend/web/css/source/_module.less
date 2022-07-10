@@ -1,0 +1,26 @@
+@orange: #FA8D25;
+& when (@media-common = true) {
+    body:not(.categorycms) .catalog.name.content {
+        .page-title {
+            color: @orange;
+            text-transform: uppercase;
+            font-weight: 500;
+            display: block;
+            margin: 30px 0 20px !important;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: unset !important;
+        }
+    }
+    .columns .column.main {
+        padding-bottom: unset !important;
+    }
+    .page-main {
+        .catalog.seo.info {
+            text-align: left;
+            padding: 10px 0 30px;
+        }
+    }
+}

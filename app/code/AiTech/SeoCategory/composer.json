@@ -1,0 +1,22 @@
+{
+    "name": "aitech/seocategory",
+    "description": "Add visible text at category content end for Seo ",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Pavel Obuhov",
+            "email": "pavel.obuhov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AiTech\\SeoCategory\\": ""
+        }
+    }
+}
